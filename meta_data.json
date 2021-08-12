@@ -2,6 +2,7 @@
     "categories": {
         "0": "analytics"
     },
+    "demo_page": "https://demo-plugin-chartjs3-timeseries.bubbleapps.io/version-test?debug_mode=true",
     "description": "A simple Chart JS3 time-based Line Chart element.\nTwo series of data can be displayed. Simple X and Y axis can be customize.\n",
     "image": "//s3.amazonaws.com/appforest_uf/f1628760943485x553740653639208900/chart.png",
     "license": "open_source",

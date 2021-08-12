@@ -1,4 +1,14 @@
 {
+    "assets": {
+        "AAD": {
+            "name": "chart.png",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1628764595451x977948043058195500/chart.png"
+        },
+        "AAE": {
+            "name": "chartsvg",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1628765775656x873226960968038700/chart.svg"
+        }
+    },
     "dependencies": {
         "plugin_api_version": 2,
         "use_jquery": true

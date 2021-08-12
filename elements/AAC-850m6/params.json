@@ -85,7 +85,7 @@
             "value": "number_range"
         }
     },
-    "icon": "ion-android-checkbox-blank",
+    "icon": "ion-ios-analytics-outline",
     "property_applications": {
         "Background": true,
         "Border": true,
@@ -93,7 +93,5 @@
         "MinWidth": true,
         "Padding": true,
         "resizable": true
-    },
-    "states": {
     }
 }
