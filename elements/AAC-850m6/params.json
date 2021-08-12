@@ -1,0 +1,16 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Time Series Line Chart ",
+    "icon": "ion-ios-pulse",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}

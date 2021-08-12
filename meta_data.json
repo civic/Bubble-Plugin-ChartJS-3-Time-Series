@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "analytics"
+    },
+    "description": "A simple Chart JS3 time-based Line Chart element.\nTwo series of data can be displayed. Simple X and Y axis can be customize.\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1628760943485x553740653639208900/chart.png",
+    "name": "ChartJS 3 Time Series Line Chart",
+    "plugin_instructions": "The chart is drawn by passing an array of time data for X and an array of numeric data for Y1/Y2 in the action.\n\nAll X, Y1, Y2 data must have same length."
+}
