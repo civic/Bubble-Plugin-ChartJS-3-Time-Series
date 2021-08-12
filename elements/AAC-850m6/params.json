@@ -5,12 +5,95 @@
         "height": 200,
         "width": 400
     },
-    "display": "Time Series Line Chart ",
-    "icon": "ion-ios-pulse",
+    "display": "ChartJSTimeSeries",
+    "fields": {
+        "AAM": {
+            "caption": "Show marker",
+            "default_val": true,
+            "doc": "Show data point marker",
+            "editor": "Checkbox",
+            "in_style": false,
+            "name": "show_marker",
+            "rank": 0
+        },
+        "AAT": {
+            "caption": "Y1 axis title",
+            "default_val": "Y1",
+            "doc": "Y1 value name. use for axis, tooltip and legend",
+            "editor": "StaticText",
+            "name": "y1_name",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "Y2 axis title",
+            "default_val": "Y2",
+            "doc": "Y2 value name. use for axis, tooltip and legend",
+            "editor": "StaticText",
+            "name": "y2_name",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "Y1 Color",
+            "default_val": "rgba(255, 102, 102, 1)",
+            "editor": "Color",
+            "name": "y1_color",
+            "optional": true,
+            "rank": 3
+        },
+        "AAW": {
+            "caption": "Y2 Color",
+            "default_val": "rgba(61, 141, 245, 1)",
+            "editor": "Color",
+            "in_style": false,
+            "name": "y2_color",
+            "optional": true,
+            "rank": 4
+        },
+        "AAX": {
+            "caption": "X Axis Time Unit",
+            "default_val": "minute",
+            "editor": "Dropdown",
+            "name": "x_axis_time_unit",
+            "options": "year,quarter,month,week,day,hour,minute,second,millisecond",
+            "rank": 5
+        },
+        "AAY": {
+            "caption": "X Axis Time Format",
+            "default_val": "HH:mm",
+            "editor": "StaticText",
+            "name": "x_axis_time_format",
+            "rank": 6
+        },
+        "AAb": {
+            "caption": "y1_axis_range",
+            "editor": "DynamicValue",
+            "name": "y1_axis_range",
+            "optional": true,
+            "rank": 7,
+            "value": "number_range"
+        },
+        "AAc": {
+            "caption": "y2_axis_range",
+            "editor": "DynamicValue",
+            "name": "y2_axis_range",
+            "optional": true,
+            "rank": 8,
+            "value": "number_range"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
     "property_applications": {
         "Background": true,
         "Border": true,
+        "BoxShadow": true,
         "MinWidth": true,
+        "Padding": true,
         "resizable": true
+    },
+    "states": {
     }
 }
