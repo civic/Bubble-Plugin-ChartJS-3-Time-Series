@@ -1,8 +1,4 @@
 function(instance, properties, context) {
-    console.log("setdata");
-    console.log(instance);
-    console.log(properties);
-    console.log(context);
     const {x_min_max_range} = properties;
 	
     const x_values = properties.x_values.get(0, properties.x_values.length());

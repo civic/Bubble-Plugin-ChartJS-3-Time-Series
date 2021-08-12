@@ -1,9 +1,4 @@
 function(instance, properties, context) {
-	console.log("update");
-	console.log(instance);
-	console.log(properties);
-	console.log(context);
-
 	const { show_marker, y1_name, y2_name, y1_color, y2_color,
 		x_axis_time_unit, x_axis_time_format, y1_axis_range, y2_axis_range } = properties;
 	const { y1Data, y2Data, x_min_max_range } = instance.data.chartData ?
